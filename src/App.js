@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
-import Map from './components/map';
+import MapWrapper from './components/MapWrapper';
 
 function App() {
   return (
     <Box>
-      <Map/>
+      <MapWrapper/>
     </Box>
   );
 }
